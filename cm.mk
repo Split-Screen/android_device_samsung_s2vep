@@ -2,10 +2,10 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
-$(call inherit-product, device/samsung/i9105p/full_i9105p.mk)
+$(call inherit-product, device/samsung/s2vep/full_s2vep.mk)
 
-PRODUCT_DEVICE := i9105p
-PRODUCT_NAME := cm_i9105p
+PRODUCT_DEVICE := s2vep
+PRODUCT_NAME := cm_s2vep
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRODUCT_NAME=s2vepxx \
